@@ -10,7 +10,6 @@ A comprehensive machine learning application for recognizing Indian Sign Languag
 ## 📋 Table of Contents
 - [Overview](#overview)
 - [Features](#features)
-- [System Architecture](#system-architecture)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies](#technologies)
@@ -20,7 +19,7 @@ A comprehensive machine learning application for recognizing Indian Sign Languag
 - [Contributing](#contributing)
 - [License](#license)
 
-## 🎯 Overview
+## Overview
 
 This system enables real-time recognition of Indian Sign Language gestures through a camera feed, providing instant translation to multiple Indian languages with audio output. The application uses MediaPipe for pose estimation, scikit-learn for classification, and offers a user-friendly GUI built with Tkinter.
 
@@ -31,7 +30,7 @@ This system enables real-time recognition of Indian Sign Language gestures throu
 - **High Accuracy**: Configurable confidence threshold with visual feedback
 - **Flexible Training**: Support for custom gesture datasets
 
-## ✨ Features
+## Features
 
 ### 🎥 Frame Collection & Processing
 - **Camera Integration**: Multi-camera support with index selection
@@ -64,7 +63,7 @@ This system enables real-time recognition of Indian Sign Language gestures throu
 - **History Tracking**: Last 50 predictions with timestamps
 - **Separate File Loading**: Individual buttons for model, scaler, and actions
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -77,7 +76,7 @@ This system enables real-time recognition of Indian Sign Language gestures throu
 ### Step 4: Install Additional Packages
 
 
-## 🚀 Usage
+## Usage
 
 ### 1️⃣ Frame Collection
 Collect training data by capturing video frames:
@@ -115,7 +114,7 @@ Launch the GUI application:
 7. View predictions with translations and audio
 
 
-## 🛠️ Technologies
+## Technologies
 
 ### Core Libraries
 | Technology | Version | Purpose |
@@ -140,7 +139,7 @@ Launch the GUI application:
 | **deep-translator** | Multi-language translation |
 | **Google Translate API** | Translation backend |
 
-## 🎓 Model Training
+## Model Training
 
 ### Dataset Requirements
 - **Minimum**: 30 sequences per gesture
@@ -162,7 +161,7 @@ RANDOM_STATE = 42
 - **Inference Speed**: ~30 FPS on CPU
 - **Model Size**: ~5-10 MB per 50 gestures
 
-## ⚙️ Configuration
+## Configuration
 
 ### Language Codes
 
@@ -188,7 +187,7 @@ MIN_DETECTION_CONFIDENCE = 0.7
 MIN_TRACKING_CONFIDENCE = 0.5
 
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -221,7 +220,7 @@ Solution: Try different camera indices (0, 1, 2)
 - Increase confidence threshold to reduce false positives
 - Add data augmentation during training
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -238,7 +237,7 @@ pre-commit install
 pytest tests/
 
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
